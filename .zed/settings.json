@@ -1,0 +1,26 @@
+{
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "clangd",
+        "arguments": [
+          "--background-index",
+          "--compile-commands-dir=${workspaceFolder}",
+          "--completion-style=bundled",
+          "--pch-storage=memory"
+        ]
+      },
+      "settings": {
+        "clangd.semanticHighlighting": true
+      }
+    }
+  },
+  "languages": {
+    "C++": {
+      "language_servers": ["clangd"]
+    }
+  },
+  "file_types": {
+    "C++": ["cu", "cuh"]
+  }
+}

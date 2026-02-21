@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.cu": "cpp",
+    "*.cuh": "cpp"
+  },
+  
+  "clangd.arguments": [
+    "--background-index",
+    "--compile-commands-dir=${workspaceFolder}",
+    "--completion-style=bundled",
+    "--pch-storage=memory"
+  ],
+  
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  
+  "C_Cpp.intelliSenseEngine": "disabled"
+}

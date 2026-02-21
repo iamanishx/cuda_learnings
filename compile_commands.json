@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:/Users/manis/cuda-lrn",
+    "command": "nvcc -c -x cuda -arch=sm_89 -IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include -IC:/MinGW/include -IC:/MinGW/lib/gcc/mingw32/6.3.0/include -D__CUDACC__ -D__CUDA_ARCH__=890 -o kernel.o",
+    "file": "01_vector_add.cu"
+  }
+]

@@ -1,0 +1,24 @@
+CompileFlags:
+  Add: 
+    - -xcuda
+    - --cuda-path=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6
+    - --cuda-gpu-arch=sm_89
+    - "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include"
+    - "-IC:/MinGW/include"
+    - "-IC:/MinGW/lib/gcc/mingw32/6.3.0/include"
+    - -D__CUDACC__
+    - -D__CUDA_ARCH__=890
+  Remove:
+    - -forward-unknown-to-host-compiler
+    - --generate-code*
+    - -arch*
+    - -gencode*
+
+Index:
+  Background: Build
+
+Diagnostics:
+  UnusedIncludes: None
+  Suppress:
+    - kern_call_not_global_function
+    - ovl_no_viable_function_in_call

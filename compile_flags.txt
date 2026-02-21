@@ -1,0 +1,7 @@
+-xcuda
+--cuda-path=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0
+--cuda-gpu-arch=sm_75
+-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/include
+-D__CUDACC__
+-D__CUDA_ARCH__=750
+-std=c++17

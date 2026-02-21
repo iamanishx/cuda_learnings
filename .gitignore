@@ -1,0 +1,43 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.lib
+*.exp
+
+# Build directories
+build/
+Debug/
+Release/
+x64/
+Win32/
+
+# VS Code
+*.code-workspace
+
+# Zed
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# CUDA
+*.ptx
+*.cubin
+*.fatbin
+*.cudarchive
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.log
